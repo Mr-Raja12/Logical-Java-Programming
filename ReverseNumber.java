@@ -6,8 +6,8 @@ public class ReverseNumber {
 	public static void main(String[] args) {
 	int number;
 	System.out.println("Enter a number");
-	Scanner Number=new Scanner(System.in);
-	number=Number.nextInt();
+	Scanner userinput=new Scanner(System.in);
+	number=userinput.nextInt();
 	/**
 	 * Uses modulo operator to get the last digit
 	 * The digit will be stored in remainder
