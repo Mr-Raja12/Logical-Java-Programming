@@ -3,13 +3,17 @@ package com.bl.logicalprogram;
 import java.util.Scanner;
 
 public class PrimeNumber {
-
+    /**
+     * Calling the check prime number method
+     * Stored the user input value in number variable
+     * @param args
+     */
     public static void main(String[] args) {
-        System.out.println("Enter Number");
-        Scanner Number = new Scanner(System.in);
-        int num = Number.nextInt();
-        PrimeNumber primeNo = new PrimeNumber();
-        primeNo.checkPrimeNumber(num);
+        System.out.println("Enter a number");
+        Scanner Scanner = new Scanner(System.in);
+        int number = Scanner.nextInt();
+        PrimeNumber primeNumber = new PrimeNumber();
+        primeNumber.checkPrimeNumber(number);
     }
      /**
       * Created a method to initialize the number
