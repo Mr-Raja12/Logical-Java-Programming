@@ -22,7 +22,6 @@ public class SimulateStopWatch {
     static void elapsedTime(){
         System.out.println("elapsed time is: " + (stop - start)  / 1000);
     }
-
     public static void main(String[] args){
         Scanner Time = new Scanner(System.in);
         System.out.println("Enter to start");
