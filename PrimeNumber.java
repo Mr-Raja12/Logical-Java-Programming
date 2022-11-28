@@ -10,14 +10,14 @@ public class PrimeNumber {
      */
     public static void main(String[] args) {
         System.out.println("Enter a number");
-        Scanner Scanner = new Scanner(System.in);
-        int number = Scanner.nextInt();
+        Scanner userinput = new Scanner(System.in);
+        int number = userinput.nextInt();
         PrimeNumber primeNumber = new PrimeNumber();
         primeNumber.checkPrimeNumber(number);
     }
      /**
       * Created a method to initialize the number
-      * @param number
+      * number
       */
     public void checkPrimeNumber(int number){
         int count = 0;
