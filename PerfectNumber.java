@@ -6,7 +6,7 @@ public class PerfectNumber {
 		 * A number whose sum of factors (excluding the number itself) 
 		 * is equal to the number is called a perfect number    	
 		 */
-    int number = 496, sum = 0;
+    int number = 28, sum = 0;
     for (int i = 1; i < number; i++)
     {
         if (number % i == 0)
