@@ -8,7 +8,7 @@ public class CouponNumbers {
         int winnerCouponNo = 123456;
         int couponNumber = 0;
         int couponCount = 0;
-
+     
         while (couponNumber != winnerCouponNo){
             couponNumber = generateCoupon();
             couponCount++;
@@ -19,12 +19,12 @@ public class CouponNumbers {
     }
 
     static int generateCoupon(){
-        int num = 0;
+        int number = 0;
         Random random = new Random();
-        while (num < 100000){
-            num = random.nextInt(999999);
+        while (number < 100000){
+        	number = random.nextInt(999999);
         }
-        return num;
+        return number;
     }
 }
 
