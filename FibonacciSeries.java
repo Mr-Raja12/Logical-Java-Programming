@@ -8,7 +8,7 @@ public class FibonacciSeries {
 	         */
 	        for(i=2;i<count;++i)
 	        {
-	        	number3=number1+number2;
+	            number3=number1+number2;
 	            System.out.print(" "+number3);
 	            number1=number2;
 	            number2=number3;
